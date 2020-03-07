@@ -185,7 +185,7 @@ class BaseEstimator(object):
                 return False
 
         elif method == "independence_match":
-            return independence_match(X, Y, Zs, independencies=kwargs['independencies'])
+            return independence_match(X, Y, Zs, independencies=kwargs["independencies"])
 
 
 class ParameterEstimator(BaseEstimator):
